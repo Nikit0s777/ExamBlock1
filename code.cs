@@ -20,3 +20,15 @@ namespace StringArrayExample
                     j++;
                 }
             }
+
+             // Вывод выходного массива на консоль
+            Console.WriteLine("Строки с длиной менее или равной 3 символам:");
+            for (int i = 0; i < outputArray.Length; i++)
+            {
+                Console.WriteLine(outputArray[i]);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
